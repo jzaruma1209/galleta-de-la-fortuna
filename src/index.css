@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stroke {
+    -webkit-text-stroke: 2px rgb(224, 135, 19);
+}
+
+.cookie__animation{
+    animation: spin 1s 
+}
+@keyframes spin {
+    0%   {transform: perspective(1000px) rotateY(  0deg)}
+    100% {transform: perspective(1000px) rotateY(360deg)}
+}
